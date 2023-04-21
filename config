@@ -200,9 +200,9 @@ exec --no-startup-id sh -c 'sleep 2; i3-msg "workspace 1; exec google-chrome"'
 # ------------------------------------------
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
 
 # Lock screen 
-bindsym $mod+x exec i3lock --nofork --color=335066
+bindsym $mod+x exec i3lock --nofork --color=363737
 
